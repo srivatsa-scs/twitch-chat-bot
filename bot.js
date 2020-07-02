@@ -21,6 +21,8 @@ const opts = {
     ]
 };
 
+console.log(process.env);
+
 const client = new tmi.client(opts);
 
 client.on('message', onMessageHandler);
