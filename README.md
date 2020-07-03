@@ -6,7 +6,6 @@ This is a chat bot written in NodeJS and is pretty basic in terms of functionali
 - It uses NedB for in memory json Database as well as a secondary database to store the channel points
 - It uses the node-fetch Module to perform http fetch requests to gw2 json api endpoints
 - It uses dotenv to store the configuration data without exposing it in the code.
-- 
 
 This bot offers the following commands:
 
