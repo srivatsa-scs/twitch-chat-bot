@@ -95,8 +95,6 @@ function onMessageHandler(target, context, msg, self){
         return ;
     }
 
-    //console.log(context);
-
     function readDatabase(choice){
         db.find({}, (err, docs)=>{
             if(err) console.error(err);
@@ -182,16 +180,6 @@ function onMessageHandler(target, context, msg, self){
     if(messageCount % reminderCountForFollowMessages== 0){
         reminders();
     }
-
-    // && commandName!='!startgiveaway' && commandName!='!endgiveaway' && commandName!='!pickwinner' && commandName!='!resetgiveaway' && commandName!='!afkreroll'
-    //List of Commands    
-
-    // if(commandName.substring(0,3)=='!sr'){
-    //     console.log(`* ${commandName.substring(4)}`);
-    //     let songName = songRequest(commandName.substring(3));
-    //     client.say(target, `${songName} has been added to the Playlist by ${context['display-name']}`);
-    //     }
-
     
     if(commandName==catchPhrase && giveawayStatus==1){
         let newUser = {
