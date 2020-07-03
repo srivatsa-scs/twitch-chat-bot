@@ -32,9 +32,6 @@ async function getWvWData(){
     return wvwRank;
 }
 
-//Should be converted to an array
-
-
 async function getPvPData(regionCode){
     
     let currentRating;
