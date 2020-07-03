@@ -22,4 +22,4 @@ It uses the .env file to set up quite a few things as listed in the .env_sample 
 **CHANNEL_POINT_VALUE** = Enter the amount of points that the bot will give to people in your chat every 5 minutes.  
 **CHANNEL_POINT_NAME** = Enter the command name / name of channel points that the bot will use. If this is set to "cats", the chat command will be !cats and people will gamble with the currency "cats"  
 
-The bot will crash if you don't fill all the constraints asked by it (I might at some point address this issue.)
+The bot will crash if you don't fill all the constraints in the .env file (I might at some point address this issue.)
